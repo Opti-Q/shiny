@@ -4,6 +4,10 @@
         <Description>Shiny addon for all your notification needs</Description>
         <TargetFrameworks>netstandard2.0;tizen50;xamarin.ios10;monoandroid90;monoandroid10.0</TargetFrameworks>
         <TargetFrameworks Condition=" $(OS) == 'WINDOWS_NT' ">uap10.0.16299;$(TargetFrameworks)</TargetFrameworks>
+        <Version>1.2.1.0</Version>
+        <Company>Opti-Q</Company>
+        <PackageReleaseNotes>Updated Shiny.Core to fix UWP startup crash #511
+https://github.com/shinyorg/shiny/blob/master/ChangeLog.md</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
